@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/colorMain">
+
+        <TextView
+            android:id="@+id/activity_create_banner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_add_banner_title"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:textSize="@dimen/header_title_size"
+            android:layout_centerInParent="true"/>
+
+        <RelativeLayout
+            android:id="@+id/add_banner_bt_back"
+            android:layout_width="@dimen/header_height"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_back"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_size"
+                android:scaleType="fitXY"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_size">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/place_img_height"
+                android:layout_marginLeft="@dimen/place_img_margin"
+                android:layout_marginRight="@dimen/place_img_margin"
+                android:background="@drawable/rounded_corner">
+
+                <ImageView
+                    android:id="@+id/add_banner_thumb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/add_banner_bt_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/icon_camera"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginTop="@dimen/padding_size"
+                android:paddingLeft="@dimen/padding_size">
+                <EditText
+                    android:id="@+id/add_banner_et_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/activity_add_banner_et_url"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHint="@color/colorEditTextHint"
+                    android:inputType="textUri"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/add_banner_bt_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/padding_size"
+            android:padding="@dimen/padding_size"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/add_banner_bt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/activity_add_place_bt_create"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

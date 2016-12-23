@@ -1,0 +1,67 @@
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        kidsplace {
+            keyAlias 'Kidsplace'
+            keyPassword '123456789'
+            storeFile file('F:/Projects/KidsPlace/src/keystore.jks')
+            storePassword '123456789'
+        }
+    }
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "www.kidsplace.at"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 6
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.kidsplace
+            renderscriptDebuggable true
+        }
+        debug {
+            signingConfig signingConfigs.kidsplace
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    // Glide image library
+    implementation 'com.google.firebase:firebase-core:11.8.0'
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+    implementation 'com.google.firebase:firebase-storage:11.8.0'
+    implementation 'com.facebook.android:facebook-login:[4,5)'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
+    implementation 'com.google.android.gms:play-services-gcm:11.8.0'
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.android.gms:play-services-auth:11.8.0'
+    implementation 'com.google.android.gms:play-services:11.8.0'
+    implementation 'com.google.android.gms:play-services-maps:11.8.0'
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'org.osmdroid:osmdroid-android:5.2@aar'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+    implementation 'fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar'
+    implementation 'com.android.billingclient:billing:1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}

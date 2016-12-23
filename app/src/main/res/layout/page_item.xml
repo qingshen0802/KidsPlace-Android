@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/activity_detail_img_thumb"
+            android:layout_width="@dimen/place_detail_img_height"
+            android:layout_height="@dimen/place_detail_img_height"
+            android:src="@drawable/img_example_pace"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true"/>
+
+        <www.kidsplace.at.views.custom_views.CustomMapView
+            android:id="@+id/activity_detail_map"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/place_detail_img_height"
+            android:layout_margin="@dimen/padding_size"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

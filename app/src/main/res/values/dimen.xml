@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_title_size">25dp</dimen>
+    <dimen name="header_height">70dp</dimen>
+    <dimen name="padding_size">10dp</dimen>
+    <dimen name="place_detail_img_height">200dp</dimen>
+    <dimen name="place_img_height">170dp</dimen>
+    <dimen name="profile_img_height">100dp</dimen>
+    <dimen name="place_img_margin">30dp</dimen>
+    <dimen name="place_cell_img_width">50dp</dimen>
+    <dimen name="ads_cell_height">70dp</dimen>
+
+</resources>

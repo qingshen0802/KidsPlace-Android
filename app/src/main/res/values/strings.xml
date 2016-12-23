@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">KidsPlace</string>
+
+    // Firebase api key
+    <string name="fcm_api_key">AIzaSyCc2400N5Pn6FFj_nxkBi6-WtGYmTwcz6Q</string>
+
+    // Facebook api key
+    <string name="facebook_app_id">387399905071528</string>
+    <string name="fb_login_protocol_scheme">fb387399905071528</string>
+
+    // Google api key
+    <!--<string name="google_api_key">AIzaSyAGTubM4fffxATZzOx35CxAhuPPSyBM5H4</string>-->
+
+    // Categories
+    <array name="category_types">
+        <item>@string/category_slide</item>
+        <item>@string/category_sandpit</item>
+    </array>
+
+    <string name="category_slide">Slide</string>
+    <string name="category_sandpit">Sandpit</string>
+
+    // Login Activity
+    <string name="activity_login_tv_signup">Don’t you have an account?</string>
+    <string name="activity_login_bt_signup">create an account</string>
+    <string name="activity_login_et_email">Please Enter Your Email</string>
+    <string name="activity_login_et_password">Please Enter Your Password</string>
+    <string name="activity_login_bt_signin">Sign in</string>
+    <string name="activity_login_bt_signin_google">Sign in with Google</string>
+    <string name="activity_login_bt_signin_facebook">Sign in with Facebook</string>
+    <string name="activity_login_email_blank_message">Blank email</string>
+    <string name="activity_login_email_invalid_message">Invalid email</string>
+    <string name="activity_login_password_empty_message">Empty password</string>
+
+    // Register Activity
+    <string name="activity_register_et_email">User Email</string>
+    <string name="activity_register_et_password">User Password</string>
+    <string name="activity_register_et_confirm">Confirm Password</string>
+    <string name="activity_register_bt_signup">Sign up</string>
+    <string name="activity_register_bt_signup_google">Sign up with Google</string>
+    <string name="activity_register_bt_signup_facebook">Sign up with Facebook</string>
+    <string name="activity_register_password_not_match_message">Does not match password</string>
+
+    // Navigation Menu
+    <string name="navigation_menu_home">Overview</string>
+    <string name="navigation_menu_my_place">My Places</string>
+    <string name="navigation_menu_rader">Radar</string>
+    <string name="navigation_menu_settings">Settings</string>
+    <string name="navigation_menu_banners">Banners</string>
+    <string name="navigation_menu_reviews">Review Places</string>
+    <string name="navigation_menu_review_banners">Review Banners</string>
+    <string name="navigation_menu_subscription">Subscription</string>
+    <string name="navigation_menu_logout">Log out</string>
+
+    // Place Detail Activity
+    <string name="activity_place_detail_bt_commnet">Send Feedback</string>
+
+    // Add Place Activity
+    <string name="activity_add_place_et_description">Enter description</string>
+    <string name="activity_add_place_et_comment">Add comment</string>
+    <string name="activity_add_place_bt_create">Create</string>
+    <string name="activity_add_place_bt_slide">Slide</string>
+    <string name="activity_add_place_bt_sandpit">Sandpit</string>
+    <string name="activity_add_place_description_empty">Empty description</string>
+
+    // Settings Activity
+    <string name="activity_settings_title">Settings</string>
+    <string name="activity_settings_radius_lb">Radius :</string>
+    <string name="activity_settings_radius_unit">km</string>
+    <string name="activity_settings_bt_title">Save</string>
+    <string name="activity_settings_lb_username">User Name</string>
+
+    // Create Banner Activity
+    <string name="activity_add_banner_title">Create Banner</string>
+    <string name="activity_add_banner_et_url">ex : https://example.com</string>
+    <string name="activity_add_banner_et_start_date">ex : 2018/1/1</string>
+    <string name="activity_add_banner_tv_months">Validation Month :</string>
+    <string name="activity_add_banner_tv_months_unit">months</string>
+    <string name="activity_add_banner_url_empty_message">Empty url</string>
+    <string name="activity_add_banner_url_invalid_message">Invalid url</string>
+    <string name="activity_add_banner_date_empty_message">Empty start date</string>
+    <string name="activity_add_banner_date_invalid_message">Invalid date format</string>
+    <string name="activity_add_banner_month_empty_message">Empty validation months</string>
+
+    // Edit Banner Activity
+    <string name="activity_edit_banner_title">Edit Banner</string>
+    <string name="activity_edit_banner_bt_title">Update</string>
+
+    // Banners Activity
+    <string name="activity_banners_title">My Banners</string>
+    <string name="activity_banners_bt_title">Create Banner</string>
+
+    // My Places Activity
+    <string name="activity_my_places_title">My Places</string>
+    <string name="activity_my_places_bt_title">Create Place</string>
+
+    // Reviewing Activity
+    <string name="activity_reviewing_title">Review</string>
+    <string name="activity_reviewing_publish">Publish</string>
+    <string name="title_activity_kpreset_password">KPResetPasswordActivity</string>
+
+    // Reset Password Activity
+    <string name="activity_reset_password_title">Set Password</string>
+    <string name="activity_reset_password_bt_title">Check</string>
+    <string name="title_activity_maps">Map</string>
+
+    // Review Activity
+    <string name="activity_review_title">Review</string>
+
+    // Review Detail Activity
+    <string name="activity_review_detail_bt_reject_title">Reject</string>
+    <string name="activity_review_detail_bt_accept_title">Accept</string>
+
+    // Notification
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Review</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="@string/navigation_menu_home" />
+        <item
+            android:id="@+id/nav_my"
+            android:icon="@drawable/icon_list"
+            android:title="@string/navigation_menu_my_place" />
+        <item
+            android:id="@+id/nav_radar"
+            android:icon="@drawable/icon_ladar"
+            android:title="@string/navigation_menu_rader" />
+        <item
+            android:id="@+id/nav_banners"
+            android:icon="@drawable/icon_banner"
+            android:title="@string/navigation_menu_banners"/>
+        <item
+            android:id="@+id/nav_reviews"
+            android:icon="@drawable/icon_review"
+            android:title="@string/navigation_menu_reviews" />
+        <item
+            android:id="@+id/nav_review_banners"
+            android:icon="@drawable/icon_review"
+            android:title="@string/navigation_menu_review_banners" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/icon_settings"
+            android:title="@string/navigation_menu_settings" />
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/icon_purchase"
+            android:title="@string/navigation_menu_subscription" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="@string/navigation_menu_logout" />
+    </group>
+
+</menu>

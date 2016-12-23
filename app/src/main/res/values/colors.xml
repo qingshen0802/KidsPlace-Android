@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#008975</color>
+    <color name="colorMain">#00aa8d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorSignupText">#134ef6</color>
+    <color name="colorEditTextHint">#98b9b4</color>
+    <color name="colorButtonGoogle">#f5a623</color>
+    <color name="colorButtonFacebook">#3f51b5</color>
+    <color name="colorRatingFill">#008975</color>
+    <color name="colorRatingEmpty">#a3d5ce</color>
+</resources>

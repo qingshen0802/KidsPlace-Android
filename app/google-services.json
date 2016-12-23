@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "689195560069",
+    "firebase_url": "https://kidsplace-ee377.firebaseio.com",
+    "project_id": "kidsplace-ee377",
+    "storage_bucket": "kidsplace-ee377.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689195560069:android:bc1e61055b79f4ef",
+        "android_client_info": {
+          "package_name": "www.kidsplace.at"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689195560069-dep6eeal02uvpkbstn96hsg0sunjo1gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.kidsplace.at",
+            "certificate_hash": "f69d42f0404cb77a3598c2296cac6b4b744e3db4"
+          }
+        },
+        {
+          "client_id": "689195560069-4jb4u2ubs4i3q029tjoqf2af44ukjifc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXP9PMG2KwtTdEGS9yrPH__dXjlvoOkdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689195560069-4jb4u2ubs4i3q029tjoqf2af44ukjifc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

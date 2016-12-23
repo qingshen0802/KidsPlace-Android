@@ -1,0 +1,84 @@
+KidsPlace
+
+firebase account : fcemmon@gmail.com
+google account : fcemmon@gmail.com
+facebook account 
+	email : andreas@schneebauer.net
+	password : danielaschuchter
+package name : www.kidsplace.at
+
+Sample URL :
+	http://www.kirchbichlhof.at/hauseigener-kinderspielplatz-am-hotel-kirchbichlhof/
+Sample for Design URL : 
+	https://material.io/guidelines/style/color.html#color-color-palette
+main color : 
+	- primary color : #00aa8d
+	- lighter color : #00BF9A
+	- Darker color  : #008975
+
+Description :
+	whats the idea. each Kids place has differnt toys for Kids. i think about a App, where you can add a new Kids place with predefined toys like a slide, you also can add Fotos of this place, People can rate and comment this playpark.
+	The App should be free for everyone. so how to make money.
+	ich someone search for a playpark of his Kids in for example vienna, he got search results.
+	in this search results i want to Display Advertising. for example a toy shop in this town, or Restaurants. that People who visit this Kids place, are able to go to a Restaurant nearby or to a toyshop. For this Advertising whe should get money.
+	Our Job is to make a small contract that the toy shop pays for example each month 5 Dollar, then the his banner will be shown in the Search results. maybe we Can integrate it in the App, a abonemment which he Can any time cancel. he Can upload a banner, and mark the place maybe by a openstreetmap pointer where he want to Display his Advertising banner.
+	I think when we start with this Project we should use firebase technology.
+	Radar feature: you are here in chisinau. if you click the radar button, you will see the nearest places which are maintend on your location
+
+Structure :
+	1) I think we need a login -> email password or facebook, or google.
+	2) Overview should display all places near your place
+		You should can filter, againt the categories like slide, sandpit...
+		You could search like a radar function
+		You could search like typing the village
+	3) You should can add a new entry -> upload pictrues map position, fields for setting the categories make a short description
+	4) The entry should not automatically published, i think it must be reviewed by an administrator in case that someone upload critical images
+	5) App settings -> where you can add a radius for the radar function.
+	6) Advertising konzept
+		When you add a in-app purchase banner advertising, i think we need a flag, in the database like banneradministrator. if he has the flag he can in the settings add a banner advertising
+
+** UI issue 
+	i like the navigation like the linkedin app, can you adjust this. that we have a bottom navigation and in the top bar the search and on the right of the topbar the filter icon(when you click on filter the layer appears where you can filter your search - slide, sand...)
+	one question, when i open the app where can i take a rating for a place or a comment?
+	in the detail view i think there must be a button where i can rate and comment a place
+	on the overview i also want  to have in the search result on each 4 place a banner if one exists
+	like the app aktuelle Einsätze
+	can you add this to the designs Thanks
+	MISSING DESIGNS: When a user adds a renewal banner, i have to approve this banner maybe it is illegal content. there are no designs how to create a banner, and to approve the banner.
+	if a user wants to add another foto to a place this also should work.
+	i think thats in from my site
+	radar feature: you are here in chisinau. if you click the radar button, you will see the nearest places which are maintend on your location
+	yes I think titles are not needed
+	banner: when you open the app it will show you the nearest position ok. i am now for example in chisinau, so if a user has maintained a banner for the village he should see the banner in the search result
+	
+
+Feedback: 
+
+	- when i click on a entry i cannot add a new comment with ratings (edited)
+	
+	when a other user was on this place, he can also comment this place and give ratings like a blog
+
+	- how should i know which place is in the map? there is no connection between list entry and map
+	
+	- when i click on the filter nothing happens, the view must be refreshed that only my categories are shown (can you add image placeholder for the filterlist- i think i will add icons)
+
+	 it should be possible to filter the items by tapping category shortly in list.
+	
+	- searchfield: when i search for example rietz, after that i delete my search (x) i should get the whole list which is in my radar. but i cannot get the list
+	in the list item the rating should be a calculation based on all rated entries of a place
+	
+	if user tap close button in search bar, it should all items user saw when start this app
+
+	- how can i test the verification of a place? i am as administrator has to accept the new entry.
+	one question i get a list of all entries, from all peoples. right? is should not only one list of places for each user
+
+	email : a.schneebauer@gmail.com
+	password : a999999s
+
+	
+	-the connection between list entry and map is not clear.
+	and map, then user can see the thumbnail and map by swipe left/right
+
+	- in the detailview, also the categories are missing
+	- and when the comments are too long the design breaks
+	- fix many scrolling view issue, and make a layout of a scroll view?
